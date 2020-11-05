@@ -1,0 +1,12 @@
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Repositories\bin\Debug\netstandard2.0\BLOG_API.Repositories.deps.json
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Repositories\bin\Debug\netstandard2.0\BLOG_API.Repositories.dll
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Repositories\bin\Debug\netstandard2.0\BLOG_API.DB.dll
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Repositories\bin\Debug\netstandard2.0\BLOG_API.DB.pdb
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Repositories\obj\Debug\netstandard2.0\BLOG_API.Repositories.AssemblyInfoInputs.cache
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Repositories\obj\Debug\netstandard2.0\BLOG_API.Repositories.AssemblyInfo.cs
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Repositories\obj\Debug\netstandard2.0\BLOG_API.Repositories.csproj.CopyComplete
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Repositories\obj\Debug\netstandard2.0\BLOG_API.Repositories.csprojAssemblyReference.cache
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Repositories\obj\Debug\netstandard2.0\BLOG_API.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Repositories\bin\Debug\netstandard2.0\BLOG_API.Repositories.pdb
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Repositories\obj\Debug\netstandard2.0\BLOG_API.Repositories.dll
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Repositories\obj\Debug\netstandard2.0\BLOG_API.Repositories.pdb

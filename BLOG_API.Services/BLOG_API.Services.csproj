@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BLOG_API.Mappers\BLOG_API.Mappers.csproj" />
+    <ProjectReference Include="..\BLOG_API.Repositories\BLOG_API.Repositories.csproj" />
+    <ProjectReference Include="..\BLOG_API.Shared\BLOG_API.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

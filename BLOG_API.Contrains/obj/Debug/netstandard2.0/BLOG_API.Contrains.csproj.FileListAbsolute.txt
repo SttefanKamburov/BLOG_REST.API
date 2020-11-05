@@ -1,0 +1,9 @@
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\bin\Debug\netstandard2.0\BLOG_API.Contrains.deps.json
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\bin\Debug\netstandard2.0\BLOG_API.Contrains.dll
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\bin\Debug\netstandard2.0\BLOG_API.Contrains.pdb
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\obj\Debug\netstandard2.0\BLOG_API.Contrains.AssemblyInfoInputs.cache
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\obj\Debug\netstandard2.0\BLOG_API.Contrains.AssemblyInfo.cs
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\obj\Debug\netstandard2.0\BLOG_API.Contrains.csproj.CoreCompileInputs.cache
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\obj\Debug\netstandard2.0\BLOG_API.Contrains.dll
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\obj\Debug\netstandard2.0\BLOG_API.Contrains.pdb
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\obj\Debug\netstandard2.0\BLOG_API.Contrains.csprojAssemblyReference.cache

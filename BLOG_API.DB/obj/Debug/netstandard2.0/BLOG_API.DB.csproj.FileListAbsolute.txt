@@ -1,0 +1,9 @@
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.DB\bin\Debug\netstandard2.0\BLOG_API.DB.deps.json
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.DB\bin\Debug\netstandard2.0\BLOG_API.DB.dll
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.DB\obj\Debug\netstandard2.0\BLOG_API.DB.csprojAssemblyReference.cache
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.DB\obj\Debug\netstandard2.0\BLOG_API.DB.AssemblyInfoInputs.cache
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.DB\obj\Debug\netstandard2.0\BLOG_API.DB.AssemblyInfo.cs
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.DB\bin\Debug\netstandard2.0\BLOG_API.DB.pdb
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.DB\obj\Debug\netstandard2.0\BLOG_API.DB.dll
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.DB\obj\Debug\netstandard2.0\BLOG_API.DB.pdb
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.DB\obj\Debug\netstandard2.0\BLOG_API.DB.csproj.CoreCompileInputs.cache
