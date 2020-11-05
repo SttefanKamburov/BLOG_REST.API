@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yDId7qM820pMxwGqmVWrZOGe3AWcV79L6Sg9+Ous9l+KCfYHe0OWZmPwEzjGG0aosc8Px9YGvVS5zphbi/vAmw==",
+  "dgSpecHash": "JhTgHTQ8hfbT47Mri+Fv61/q0hzanMhhzdx0Mj58MoVBtdRJgTI8RLonc0XqKaYhwHfb74rSLpqLkeootcoeGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Constans.csproj",
+  "projectFilePath": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Constants.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus ROG\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Asus ROG\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

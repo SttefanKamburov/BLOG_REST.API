@@ -1950,14 +1950,14 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "BLOG_API.Constans/1.0.0": {
+      "BLOG_API.Constants/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/BLOG_API.Constans.dll": {}
+          "bin/placeholder/BLOG_API.Constants.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BLOG_API.Constans.dll": {}
+          "bin/placeholder/BLOG_API.Constants.dll": {}
         }
       },
       "BLOG_API.DB/1.0.0": {
@@ -1982,7 +1982,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "BLOG_API.Constans": "1.0.0",
+          "BLOG_API.Constants": "1.0.0",
           "BLOG_API.DB": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.9"
         },
@@ -6801,10 +6801,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "BLOG_API.Constans/1.0.0": {
+    "BLOG_API.Constants/1.0.0": {
       "type": "project",
-      "path": "../BLOG_API.Contrains/BLOG_API.Constans.csproj",
-      "msbuildProject": "../BLOG_API.Contrains/BLOG_API.Constans.csproj"
+      "path": "../BLOG_API.Contrains/BLOG_API.Constants.csproj",
+      "msbuildProject": "../BLOG_API.Contrains/BLOG_API.Constants.csproj"
     },
     "BLOG_API.DB/1.0.0": {
       "type": "project",
