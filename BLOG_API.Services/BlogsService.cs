@@ -80,7 +80,7 @@ namespace BLOG_API.Services
             if (model.PostIds.Any()) 
             {
                 blogs = blogs
-                    .Where(b => b.Posts.Any(p => model.PostIds.Any(m => m == p.Id)));
+                    .Where(b => b.Posts.Any(p => model.PostIds.Contains(p.Id)));
             }
 
             if (model.DateCreated != null) 
