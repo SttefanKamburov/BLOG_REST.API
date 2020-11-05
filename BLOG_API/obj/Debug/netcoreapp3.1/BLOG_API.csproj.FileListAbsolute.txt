@@ -156,13 +156,13 @@ C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\bin\Debug\netcoreapp3.1\BLOG_AP
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\bin\Debug\netcoreapp3.1\BLOG_API.DB.pdb
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\obj\Debug\netcoreapp3.1\BLOG_API.csproj.CoreCompileInputs.cache
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\obj\Debug\netcoreapp3.1\BLOG_API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\bin\Debug\netcoreapp3.1\BLOG_API.Contrains.dll
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\bin\Debug\netcoreapp3.1\BLOG_API.Shared.dll
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\bin\Debug\netcoreapp3.1\BLOG_API.Shared.pdb
-C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\bin\Debug\netcoreapp3.1\BLOG_API.Contrains.pdb
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\bin\Debug\netcoreapp3.1\BLOG_API.Mappers.dll
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\bin\Debug\netcoreapp3.1\BLOG_API.Repositories.dll
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\bin\Debug\netcoreapp3.1\BLOG_API.Services.dll
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\bin\Debug\netcoreapp3.1\BLOG_API.Services.pdb
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\bin\Debug\netcoreapp3.1\BLOG_API.Mappers.pdb
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\bin\Debug\netcoreapp3.1\BLOG_API.Repositories.pdb
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\bin\Debug\netcoreapp3.1\BLOG_API.Constans.dll
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API\bin\Debug\netcoreapp3.1\BLOG_API.Constans.pdb

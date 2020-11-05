@@ -1,0 +1,8 @@
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\bin\Debug\netstandard2.0\BLOG_API.Constrains.deps.json
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\bin\Debug\netstandard2.0\BLOG_API.Constrains.dll
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\bin\Debug\netstandard2.0\BLOG_API.Constrains.pdb
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\obj\Debug\netstandard2.0\BLOG_API.Constrains.AssemblyInfoInputs.cache
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\obj\Debug\netstandard2.0\BLOG_API.Constrains.AssemblyInfo.cs
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\obj\Debug\netstandard2.0\BLOG_API.Constrains.csproj.CoreCompileInputs.cache
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\obj\Debug\netstandard2.0\BLOG_API.Constrains.dll
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Contrains\obj\Debug\netstandard2.0\BLOG_API.Constrains.pdb

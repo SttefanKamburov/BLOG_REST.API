@@ -24,6 +24,5 @@ namespace BLOG_API.DB.Models
 
         [ForeignKey(nameof(Blog))]
         public long BlogId { get; set; }
-
     }
 }

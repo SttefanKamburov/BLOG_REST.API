@@ -18,7 +18,6 @@ namespace BLOG_API.Services
     public class PostsService : BaseService, IPostsService
     {
         private readonly DeletableRepository<Post> repository;
-
         public PostsService(BlogDbContext context)
         {
             this.repository = new DeletableRepository<Post>(context);
@@ -35,7 +34,6 @@ namespace BLOG_API.Services
             dtoModel.Id = post.Id;
             return dtoModel;
         }
-
         public async Task<ICollection<PostDTO>> AllAsync()
         {
             if (this.repository.All() == null)
@@ -44,7 +42,6 @@ namespace BLOG_API.Services
             }
             return await this.repository.All().Select(PostMapper.SelectPostDtoFromPost).ToListAsync();
         }
-
         public async Task<bool> DeleteAsync(long id)
         {
             if (this.repository.Get(id).FirstOrDefault() == null)
@@ -54,7 +51,6 @@ namespace BLOG_API.Services
             this.repository.Delete(id);
             return await this.repository.SaveChangesAsync();
         }
-
         public async Task<ICollection<PostDTO>> GetPostsByCriteria(PostsCriteriaInputModel model)
         {
             if (!model.Ids.Any() &&
@@ -75,7 +71,7 @@ namespace BLOG_API.Services
             if (model.Ids.Any())
             {
                 posts = posts
-                    .Where(p => model.Ids.Any(m => m == p.Id));
+                    .Where(p => model.Ids.Contains(p.Id));
             }
 
             if (!string.IsNullOrWhiteSpace(model.Title))
@@ -125,15 +121,12 @@ namespace BLOG_API.Services
                 posts = posts
                     .Where(p => p.BlogId == model.BlogId);
             }
-
             return await posts.Select(PostMapper.SelectPostDtoFromPost).ToListAsync();
         }
-
         public async Task<PostDTO> GetAsync(long id)
         {
             return await this.repository.Get(id).Select(PostMapper.SelectPostDtoFromPost).FirstOrDefaultAsync();
         }
-
         public async Task<PostDTO> UpdateAsync(PostDTO dtoModel)
         {
             await this.ValidateAsync(dtoModel);
@@ -148,7 +141,6 @@ namespace BLOG_API.Services
             await this.repository.SaveChangesAsync();
             return dtoModel;
         }
-
         public async Task ValidateAsync(PostDTO post)
         {
 

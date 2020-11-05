@@ -39,6 +39,5 @@ namespace BLOG_API.DB.Models
 
         [InverseProperty(nameof(Post.UserCreator))]
         public virtual ICollection<Post> Posts { get; set; }
-
     }
 }

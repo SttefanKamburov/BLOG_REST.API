@@ -15,9 +15,6 @@ namespace BLOG_API.DB.Models
         public string Name { get; set; }
 
         [InverseProperty(nameof(Post.Blog))]
-        public virtual ICollection<Post> Posts { get; set; }
-
-        
-
+        public virtual ICollection<Post> Posts { get; set; }      
     }
 }

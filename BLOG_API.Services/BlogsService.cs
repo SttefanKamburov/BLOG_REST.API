@@ -38,7 +38,6 @@ namespace BLOG_API.Services
             dtoModel.Id = blog.Id;
             return dtoModel;
         }
-
         public async Task<ICollection<BlogDTO>> AllAsync()
         {
             if (this.repository.All() == null) 
@@ -47,7 +46,6 @@ namespace BLOG_API.Services
             }
             return await this.repository.All().Select(BlogMapper.SelectBlogDtoFromBlog).ToListAsync();
         }
-
         public async Task<bool> DeleteAsync(long id)
         {
             if (this.repository.Get(id).FirstOrDefault() == null) 
@@ -57,12 +55,10 @@ namespace BLOG_API.Services
             this.repository.Delete(id);
             return await this.repository.SaveChangesAsync();
         }
-
         public async Task<BlogDTO> GetAsync(long id)
         {
             return await this.repository.Get(id).Select(BlogMapper.SelectBlogDtoFromBlog).FirstOrDefaultAsync();
         }
-
         public async Task<ICollection<BlogDTO>> GetBlogByCriteriaAsync(BlogsCriteriaInputModel model)
         {
             if (model.PostIds.Any() &&
@@ -98,11 +94,8 @@ namespace BLOG_API.Services
                 blogs = blogs
                     .Where(b => b.Name.Contains(model.Name));
             }
-
             return await blogs.Select(BlogMapper.SelectBlogDtoFromBlog).ToListAsync();
-
         }
-
         public async Task<BlogDTO> UpdateAsync(BlogDTO dtoModel)
         {
             await this.ValidateAsync(dtoModel);
@@ -117,10 +110,8 @@ namespace BLOG_API.Services
             await this.repository.SaveChangesAsync();
             return dtoModel;
         }
-
         public async Task ValidateAsync(BlogDTO blog)
         {
-
             if (blog == null || blog.Id < 0)
             {
                 throw new Exception("Blog not found");

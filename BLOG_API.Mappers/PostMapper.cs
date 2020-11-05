@@ -22,7 +22,6 @@ namespace BLOG_API.Mappers
             DateCreated = postModel.DataCreated,
             LastDateModified = postModel.LastDateModified
         };
-
         public static void MapPostFromPostDto(ref Post post, ref PostDTO postDTO)
         {
             post.Id = postDTO.Id;

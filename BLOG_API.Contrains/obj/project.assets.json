@@ -185,9 +185,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Contrains.csproj",
-      "projectName": "BLOG_API.Contrains",
-      "projectPath": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Contrains.csproj",
+      "projectUniqueName": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Constans.csproj",
+      "projectName": "BLOG_API.Constans",
+      "projectPath": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Constans.csproj",
       "packagesPath": "C:\\Users\\Asus ROG\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\obj\\",
       "projectStyle": "PackageReference",

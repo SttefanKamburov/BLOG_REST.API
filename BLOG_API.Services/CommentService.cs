@@ -76,13 +76,13 @@ namespace BLOG_API.Services.Contracts
             if (model.CommentIds.Any())
             {
                 comments = comments
-                    .Where(c => model.CommentIds.Any(m => m == c.Id));
+                    .Where(c => model.CommentIds.Contains(c.Id));
             }
 
             if (model.PostIds.Any())
             {
                 comments = comments
-                    .Where(c => model.PostIds.Any(m => m == c.PostId));
+                    .Where(c => model.PostIds.Contains(c.PostId));
             }
 
             if (!string.IsNullOrWhiteSpace(model.Text))

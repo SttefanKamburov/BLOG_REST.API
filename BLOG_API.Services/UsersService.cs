@@ -23,12 +23,10 @@ namespace BLOG_API.Services
     public class UsersService : BaseService, IUserService
     {
         private readonly DeletableUserRepository<User> repository;
-
         public UsersService(BlogDbContext context)
         {
             this.repository = new DeletableUserRepository<User>(context);
         }
-
         public async Task<UserDTO> AddAsync(UserDTO user)
         {
             await this.ValidateAsync(user);
@@ -42,7 +40,6 @@ namespace BLOG_API.Services
             user.Id = newUser.Id;
             return user;
         }
-
         public async Task<ICollection<UserDTO>> AllAsync()
         {
             if (this.repository.All() == null)
@@ -51,10 +48,8 @@ namespace BLOG_API.Services
             }
             return await this.repository.All().Select(UserMapper.SelectUserDtoFromUser).ToListAsync();
         }
-
         public async Task<bool> DeleteAsync(long id)
         {
-
             if (this.repository.All().Where(u => u.Id == id).FirstOrDefault() == null)
             {
                 throw new Exception("User for deletion not found");
@@ -62,7 +57,6 @@ namespace BLOG_API.Services
             this.repository.Delete(id);
             return await repository.SaveChangesAsync();
         }
-
         public async Task<UserDTO> GetAsync(long id)
         {
             UserDTO user = await this.repository.All()
@@ -76,7 +70,6 @@ namespace BLOG_API.Services
             }
             return user;
         }
-
         public async Task<ICollection<UserDTO>> GetUserByCriteriaAsync(UsersCriteriaInputModel model)
         {
             if (!model.UserIds.Any() &&
@@ -98,7 +91,7 @@ namespace BLOG_API.Services
             if (model.UserIds.Any())
             {
                 users = users
-                    .Where(u =>model.UserIds.Any(m=>m == u.Id));
+                    .Where(u =>model.UserIds.Contains(u.Id));
             }
 
             if (model.DateCreated != null)
@@ -154,12 +147,8 @@ namespace BLOG_API.Services
                 users = users
                     .Where(u => u.Posts.Any(p => model.PostIds.Any(m => m == p.Id)));
             }
-
             return await users.Select(UserMapper.SelectUserDtoFromUser).ToListAsync();
-
         }
-
-
         public async Task<UserDTO> UpdateAsync(UserDTO user)
         {
             user.Password = CreateMD5(user.Password);
@@ -174,10 +163,8 @@ namespace BLOG_API.Services
             await this.repository.SaveChangesAsync();
             return user;
         }
-
         public async Task ValidateAsync(UserDTO user)
         {
-
             if (user == null || user.Id < 0)
             {
                 throw new Exception("User not found");
@@ -188,7 +175,6 @@ namespace BLOG_API.Services
                 throw new Exception("User already exists");
             }
         }
-
         public static string CreateMD5(string input)
         {
             using (MD5 md5 = MD5.Create())

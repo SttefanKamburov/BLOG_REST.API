@@ -1409,9 +1409,9 @@
           }
         }
       },
-      "BLOG_API.Contrains/1.0.0": {
+      "BLOG_API.Constans/1.0.0": {
         "runtime": {
-          "BLOG_API.Contrains.dll": {}
+          "BLOG_API.Constans.dll": {}
         }
       },
       "BLOG_API.DB/1.0.0": {
@@ -1446,7 +1446,7 @@
       },
       "BLOG_API.Shared/1.0.0": {
         "dependencies": {
-          "BLOG_API.Contrains": "1.0.0",
+          "BLOG_API.Constans": "1.0.0",
           "BLOG_API.DB": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.9"
         },
@@ -2351,7 +2351,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "BLOG_API.Contrains/1.0.0": {
+    "BLOG_API.Constans/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

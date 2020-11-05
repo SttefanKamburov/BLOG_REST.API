@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BLOG_API.Contrains
 {
-    public class AppConstrains
+    public class AppConstants
     {
         public const int NAME_MAX_LRNGHT = 150;
         public const int NAME_MIN_LENGHT = 2;

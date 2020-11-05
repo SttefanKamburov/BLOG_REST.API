@@ -10,24 +10,14 @@ namespace BLOG_API.DB
     public class BlogDbContext : DbContext
     {
         private readonly string connectionString;
-
         public BlogDbContext() {
 
             this.connectionString = "Server=localhost;Database=Blog;Uid=test;Pwd=test;";
         }
-
         public BlogDbContext(string connectionString)
         {
             this.connectionString = connectionString;
         }
-
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //   modelBuilder.Entity<Blog>().has
-            
-        //}
-
-
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Post> Posts { get; set; }
@@ -43,6 +33,5 @@ namespace BLOG_API.DB
                 throw new ArgumentNullException("ConnectionString is empty!");
             }
         }
-
     }
 }

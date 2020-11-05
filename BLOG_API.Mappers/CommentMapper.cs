@@ -21,7 +21,6 @@ namespace BLOG_API.Mappers
            DateCreated = commentModel.DataCreated,
            LastDateModified = commentModel.LastDateModified
         };
-
         public static void MapCommentFromCommentDto(ref Comment comment, ref CommentDTO commentDTO)
         {
             comment.Id = commentDTO.Id;

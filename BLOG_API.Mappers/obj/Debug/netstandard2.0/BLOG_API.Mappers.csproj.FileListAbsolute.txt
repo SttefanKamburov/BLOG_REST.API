@@ -1,11 +1,9 @@
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\bin\Debug\netstandard2.0\BLOG_API.Mappers.deps.json
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\bin\Debug\netstandard2.0\BLOG_API.Mappers.dll
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\bin\Debug\netstandard2.0\BLOG_API.Mappers.pdb
-C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\bin\Debug\netstandard2.0\BLOG_API.Contrains.dll
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\bin\Debug\netstandard2.0\BLOG_API.DB.dll
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\bin\Debug\netstandard2.0\BLOG_API.Shared.dll
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\bin\Debug\netstandard2.0\BLOG_API.Shared.pdb
-C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\bin\Debug\netstandard2.0\BLOG_API.Contrains.pdb
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\bin\Debug\netstandard2.0\BLOG_API.DB.pdb
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\obj\Debug\netstandard2.0\BLOG_API.Mappers.csprojAssemblyReference.cache
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\obj\Debug\netstandard2.0\BLOG_API.Mappers.AssemblyInfoInputs.cache
@@ -14,3 +12,5 @@ C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\obj\Debug\netstandard2.
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\obj\Debug\netstandard2.0\BLOG_API.Mappers.csproj.CopyComplete
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\obj\Debug\netstandard2.0\BLOG_API.Mappers.dll
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\obj\Debug\netstandard2.0\BLOG_API.Mappers.pdb
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\bin\Debug\netstandard2.0\BLOG_API.Constans.dll
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Mappers\bin\Debug\netstandard2.0\BLOG_API.Constans.pdb

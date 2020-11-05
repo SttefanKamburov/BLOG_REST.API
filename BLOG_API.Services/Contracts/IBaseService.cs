@@ -10,15 +10,10 @@ namespace BLOG_API.Services.Contracts
         where TDto : BaseDTO
     {
         Task<ICollection<TDto>> AllAsync();
-
         Task<TDto> GetAsync(long id);
-
         Task<TDto> AddAsync(TDto dtoModel);
-
         Task<TDto> UpdateAsync(TDto dtoModel);
-
         Task<bool> DeleteAsync(long id);
-
         Task ValidateAsync(TDto dtoModel);
     }
 }

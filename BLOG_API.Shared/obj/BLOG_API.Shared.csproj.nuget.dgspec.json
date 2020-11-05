@@ -4,12 +4,12 @@
     "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Shared\\BLOG_API.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Contrains.csproj": {
+    "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Constans.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Contrains.csproj",
-        "projectName": "BLOG_API.Contrains",
-        "projectPath": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Contrains.csproj",
+        "projectUniqueName": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Constans.csproj",
+        "projectName": "BLOG_API.Constans",
+        "projectPath": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Constans.csproj",
         "packagesPath": "C:\\Users\\Asus ROG\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\obj\\",
         "projectStyle": "PackageReference",
@@ -173,8 +173,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Contrains.csproj": {
-                "projectPath": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Contrains.csproj"
+              "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Constans.csproj": {
+                "projectPath": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Constans.csproj"
               },
               "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.DB\\BLOG_API.DB.csproj": {
                 "projectPath": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.DB\\BLOG_API.DB.csproj"

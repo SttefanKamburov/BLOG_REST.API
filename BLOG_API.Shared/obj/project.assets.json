@@ -1950,14 +1950,14 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "BLOG_API.Contrains/1.0.0": {
+      "BLOG_API.Constans/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/BLOG_API.Contrains.dll": {}
+          "bin/placeholder/BLOG_API.Constans.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BLOG_API.Contrains.dll": {}
+          "bin/placeholder/BLOG_API.Constans.dll": {}
         }
       },
       "BLOG_API.DB/1.0.0": {
@@ -6786,10 +6786,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "BLOG_API.Contrains/1.0.0": {
+    "BLOG_API.Constans/1.0.0": {
       "type": "project",
-      "path": "../BLOG_API.Contrains/BLOG_API.Contrains.csproj",
-      "msbuildProject": "../BLOG_API.Contrains/BLOG_API.Contrains.csproj"
+      "path": "../BLOG_API.Contrains/BLOG_API.Constans.csproj",
+      "msbuildProject": "../BLOG_API.Contrains/BLOG_API.Constans.csproj"
     },
     "BLOG_API.DB/1.0.0": {
       "type": "project",
@@ -6799,7 +6799,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "BLOG_API.Contrains >= 1.0.0",
+      "BLOG_API.Constans >= 1.0.0",
       "BLOG_API.DB >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.9",
       "NETStandard.Library >= 2.0.3"
@@ -6831,8 +6831,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Contrains.csproj": {
-              "projectPath": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Contrains.csproj"
+            "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Constans.csproj": {
+              "projectPath": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.Contrains\\BLOG_API.Constans.csproj"
             },
             "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.DB\\BLOG_API.DB.csproj": {
               "projectPath": "C:\\Users\\Asus ROG\\source\\repos\\BLOG_API\\BLOG_API.DB\\BLOG_API.DB.csproj"

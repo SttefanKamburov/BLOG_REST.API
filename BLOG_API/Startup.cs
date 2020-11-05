@@ -24,24 +24,18 @@ namespace BLOG_API
         {
             Configuration = configuration;
         }
-
         public IConfiguration Configuration { get; }
-
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<BlogDbContext>(opt =>
             opt.UseLazyLoadingProxies()
             .UseSqlServer(this.Configuration.GetConnectionString(DefaultConnection)));
             services.AddControllers();
-            services.AddTransient <IUserService,UsersService>();
+            services.AddTransient<IUserService, UsersService>();
             services.AddTransient<IBlogService, BlogsService>();
             services.AddTransient<IPostsService, PostsService>();
             services.AddTransient<ICommentService, CommentService>();
         }
-
-      
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

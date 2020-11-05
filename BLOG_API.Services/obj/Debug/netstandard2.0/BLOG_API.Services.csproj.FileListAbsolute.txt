@@ -1,7 +1,6 @@
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\bin\Debug\netstandard2.0\BLOG_API.Services.deps.json
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\bin\Debug\netstandard2.0\BLOG_API.Services.dll
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\bin\Debug\netstandard2.0\BLOG_API.Services.pdb
-C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\bin\Debug\netstandard2.0\BLOG_API.Contrains.dll
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\bin\Debug\netstandard2.0\BLOG_API.DB.dll
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\bin\Debug\netstandard2.0\BLOG_API.Mappers.dll
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\bin\Debug\netstandard2.0\BLOG_API.Repositories.dll
@@ -9,7 +8,6 @@ C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\bin\Debug\netstandard2
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\bin\Debug\netstandard2.0\BLOG_API.Mappers.pdb
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\bin\Debug\netstandard2.0\BLOG_API.Repositories.pdb
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\bin\Debug\netstandard2.0\BLOG_API.Shared.pdb
-C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\bin\Debug\netstandard2.0\BLOG_API.Contrains.pdb
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\bin\Debug\netstandard2.0\BLOG_API.DB.pdb
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\obj\Debug\netstandard2.0\BLOG_API.Services.csprojAssemblyReference.cache
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\obj\Debug\netstandard2.0\BLOG_API.Services.AssemblyInfoInputs.cache
@@ -18,3 +16,5 @@ C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\obj\Debug\netstandard2
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\obj\Debug\netstandard2.0\BLOG_API.Services.csproj.CopyComplete
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\obj\Debug\netstandard2.0\BLOG_API.Services.dll
 C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\obj\Debug\netstandard2.0\BLOG_API.Services.pdb
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\bin\Debug\netstandard2.0\BLOG_API.Constans.dll
+C:\Users\Asus ROG\source\repos\BLOG_API\BLOG_API.Services\bin\Debug\netstandard2.0\BLOG_API.Constans.pdb

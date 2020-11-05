@@ -23,7 +23,6 @@ namespace BLOG_API.Mappers
             DateCreated = userModel.DateCreated,
             DateLastModified = userModel.DateLastModified,
         };
-
         public static void MapUserFromUserDto(ref User user, ref UserDTO userDTO)
         {
             user.Id = userDTO.Id;

@@ -14,13 +14,11 @@ namespace BLOG_API.Repositories
     {
         private readonly BlogDbContext context;
         private readonly DbSet<TEntity> dbSet;
-
         public BaseRepository(BlogDbContext context)
         {
             this.context = context;
             this.dbSet = this.context.Set<TEntity>();
         }
-
         protected BlogDbContext Context
         {
             get
@@ -28,7 +26,6 @@ namespace BLOG_API.Repositories
                 return this.context;
             }
         }
-
         protected DbSet<TEntity> DbSet
         {
             get
@@ -36,7 +33,6 @@ namespace BLOG_API.Repositories
                 return this.dbSet;
             }
         }
-
         public virtual void Add(TEntity entity)
         {
             var entry = this.Context.Entry(entity);
@@ -49,7 +45,6 @@ namespace BLOG_API.Repositories
                 this.DbSet.Add(entity);
             }
         }
-
         public virtual void Delete(long id)
         {
             var entity = this.Get(id).FirstOrDefault();
@@ -64,17 +59,14 @@ namespace BLOG_API.Repositories
                 this.DbSet.Remove(entity);
             }
         }
-
         public virtual IQueryable<TEntity> Get(long id)
         {
             return this.DbSet.Where(e => e.Id == id);
         }
-
         public virtual IQueryable<TEntity> All()
         {
             return this.DbSet;
         }
-
         public virtual void Update(TEntity entity)
         {
             if (entity == null)
@@ -84,7 +76,6 @@ namespace BLOG_API.Repositories
 
             this.Context.Entry(entity).State = EntityState.Modified;
         }
-
         public virtual async Task<bool> SaveChangesAsync()
         {
             try
@@ -96,12 +87,10 @@ namespace BLOG_API.Repositories
                 throw ex;
             }
         }
-
         public virtual bool SaveChanges()
         {
             return this.Context.SaveChanges() > 0;
         }
-
         public void Dispose()
         {
             if (this.Context != null)

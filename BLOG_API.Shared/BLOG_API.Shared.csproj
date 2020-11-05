@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BLOG_API.Contrains\BLOG_API.Contrains.csproj" />
+    <ProjectReference Include="..\BLOG_API.Contrains\BLOG_API.Constans.csproj" />
     <ProjectReference Include="..\BLOG_API.DB\BLOG_API.DB.csproj" />
   </ItemGroup>
 
